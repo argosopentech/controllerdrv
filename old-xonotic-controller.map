@@ -1,0 +1,25 @@
+[xboxdrv]
+silent = true
+mimic-xpad = true
+
+[ui-buttonmap]
+A = KEY_SPACE       # Jump
+B = KEY_E           # Use
+X = KEY_R           # Reload
+Y = KEY_F           # Special action
+
+DU = KEY_UP         # Arrow up
+DD = KEY_DOWN       # Arrow down
+DL = KEY_LEFT       # Arrow left
+DR = KEY_RIGHT      # Arrow right
+
+LB = KEY_Q          # Previous weapon
+RB = KEY_E          # Next weapon
+
+LT = BTN_RIGHT      # Aim down sight
+RT = BTN_LEFT       # Fire
+
+[evdev-absmap]
+ABS_RX = X2
+ABS_RY = Y2
+
